@@ -1,0 +1,45 @@
+// main: ../style.less
+
+@import "../css/vars";
+
+.intro_inner {
+  margin-top: 7rem;
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid fade(@gray, 30%);
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background: url("../images/butterfly.png") right top no-repeat;
+}
+
+.intro_content {
+  width: 50%;
+  margin-left: 1rem;
+}
+
+.intro_suptitle {
+  font-size: 2.13rem;
+  color: @black;
+  font-weight: 200;
+}
+
+.intro_title {
+  margin-bottom: 5px;
+  font-size: 3rem;
+  color: @black;
+  font-weight: 700;
+}
+
+.intro_text {
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  color: fade(@black, 70%);
+}
+
+.intro_photo {
+  margin-bottom: 2rem;
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  z-index: 1;
+}

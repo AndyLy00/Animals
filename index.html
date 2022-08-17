@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,300;1,400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Animals</title>
+</head>
+<body id="body">
+
+<!-- Header -->
+
+<header class="header">
+    <div class="container">
+        <div class="header_inner">
+
+            <div class="user">
+                <div class="user_avatar">
+                    <img src="images/avatar.jpg" alt="">
+                </div>
+                <div class="user_content">
+                    <div class="user_name"> AndyLy</div>
+                    <div class="user_prof"> Project about<br>animals</div>
+                </div>
+            </div>
+
+            <div class="nav">
+                <a class="nav_link" href="javascript: scroll('work');">Work</a>
+                <a class="nav_link" href="javascript: scroll('about');">About</a>
+                <a class="nav_link" href="javascript: scroll('blog');">Blog</a>
+                <a class="nav_link" href="javascript: scroll('contact');">Contact</a>
+                <a id="hireme_btn1" class="nav_link nav_link--btn">Hire me</a>
+            </div>
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle_item"> Menu </span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- Intro -->
+
+<section class="intro">
+    <div class="container">
+        <div class="intro_inner">
+            <div class="intro_content">
+                <h2 class="intro_suptitle">Hello I'm</h2>
+                <h1 class="intro_title">AndyLy</h1>
+                <div class="intro_text">Nature lover</div>
+                <div class="social">
+                    <a class="social_link" href="#">
+                        <img class="social_img" src="images/icons/1.png" alt="">
+                        <img class="social_img" src="images/icons/2.png" alt="">
+                        <img class="social_img" src="images/icons/3.png" alt="">
+                        <img class="social_img" src="images/icons/4.png" alt="">
+                        <img class="social_img" src="images/icons/5.png" alt="">
+                        <img class="social_img" src="images/icons/6.png" alt="">
+                    </a>
+                </div>
+
+                <div class="btn_center2">
+                    <a id="hireme_btn2" class="btn"> HIRE ME </a>
+                    <button id="resume_btn1" class="btn" type="button"> SEE MY RESUME</button>
+                </div>
+
+
+            </div>
+            <img class="intro_photo" src="images/lion.png" alt="">
+        </div> <!-- /.intro-inner -->
+    </div> <!-- /.container -->
+</section>
+<!--Works-->
+<div id="work" class="works">
+    <div class="container">
+
+        <div class="works_nav">
+            <a class="works_nav-link" data-filter="all">All</a>
+            <a class="works_nav-link" data-filter="forest">Forest</a>
+            <a class="works_nav-link" data-filter="garden">Garden</a>
+            <a class="works_nav-link" data-filter="other">Other</a>
+        </div>
+
+        <div class="portfolio">
+
+            <div class="portfolio_col" data-cat="forest">
+
+                <div class="work">
+                    <img class="work_image" src="images/works/pr1.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Forest</div>
+                        <div class="work_title">
+                            Deer
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="forest">
+                <div class="work">
+                    <img class="work_image" src="images/works/pr4.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Forest</div>
+                        <div class="work_title">
+                            Fox
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="forest">
+                <div class="work">
+                    <img class="work_image" src="images/works/pr6.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Forest</div>
+                        <div class="work_title">
+                            Owl
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="garden">
+
+                <div class="work">
+                    <img class="work_image" src="images/works/pr2.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Garden</div>
+                        <div class="work_title">
+                            Butterfly
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="garden">
+                <div class="work">
+                    <img class="work_image" src="images/works/pr3.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Garden</div>
+                        <div class="work_title">
+                            Bird
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="garden">
+                <div class="work">
+                    <img class="work_image" src="images/works/pr9.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Garden</div>
+                        <div class="work_title">
+                            Ladybug
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="other">
+                <div class="work">
+                    <img class="work_image" src="images/works/pr7.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Other</div>
+                        <div class="work_title">
+                            Dog
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="other">
+                <div class="work">
+                    <img class="work_image" src="images/works/pr8.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Other</div>
+                        <div class="work_title">
+                            Leopard
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio_col" data-cat="other">
+                <div class="work">
+                    <img class="work_image" src="images/works/pr5.jpg" alt="">
+                    <div class="work_content">
+                        <div class="work_cat">Other</div>
+                        <div class="work_title">
+                            Frog
+                            <time class="work_date" datetime="2022-07-26 18:41"> 2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div> <!-- /.portfolio -->
+        <div class="text_center">
+            <a class="btn btn--sm" href="#">Load more work</a>
+        </div>
+    </div> <!-- /.container -->
+</div> <!-- /.works -->
+
+<!-- About -->
+<section id="about" class="about">
+    <div class="container">
+
+        <div class="about_inner">
+            <div class="about_photo">
+                <img class="about_img" src="images/nature.png" alt="">
+            </div>
+
+            <div class="about_content">
+                <h3 class="about_title"> About </h3>
+                <h2 class="about_bigtitle"> Nature </h2>
+                <div class="about_text">
+                    <p>
+                        Nature, in the broadest sense, is the physical world or universe. "Nature" can
+                        refer to the phenomena of the physical world, and also to life in general. The study of nature
+                        is a large, if not the only, part of science. Although humans are part of nature, human activity
+                        is
+                        often understood as a separate category from other natural phenomena.
+                    </p>
+                    <p>
+                        The word nature is borrowed from the Old French nature and is derived from the Latin word
+                        natura, or "essential qualities, innate disposition", and in ancient times, literally meant
+                        "birth". In
+                        ancient philosophy, natura is mostly used as the Latin translation of the Greek word physis
+                        (φύσις),
+                        which originally related to the intrinsic characteristics of plants, animals, and other features
+                        of
+                        the world to develop of their own accord. The concept of nature as a whole, the physical
+                        universe, is one of several expansions of the original notion; it began with certain core
+                        applications of the word φύσις by pre-Socratic philosophers (though this word had a dynamic
+                        dimension then, especially for Heraclitus), and has steadily gained currency ever since.
+                    </p>
+                </div>
+                <div class="btn_center colon">
+                    <a id="hireme_btn3" class="btn"> HIRE ME </a>
+                    <button id="resume_btn2" class="btn" type="button"> SEE MY RESUME</button>
+                </div>
+            </div> <!-- /.about_content -->
+        </div> <!-- /.about_inner -->
+
+    </div> <!-- /.container -->
+</section> <!-- /.about -->
+
+<!-- Reviews -->
+<div class="reviews">
+    <div class="container">
+
+        <div class="reviews_item">
+            <div class="reviews_text">
+                <p> Butterflies are insects in the macrolepidopteran clade Rhopalocera from the order Lepidoptera, which
+                    also includes moths. Adult butterflies have large, often brightly coloured wings, and conspicuous,
+                    fluttering flight. The group comprises the large superfamily Papilionoidea, which contains at least
+                    one former group, the skippers (formerly the superfamily "Hesperioidea"), and the most recent
+                    analyses suggest it also contains the moth-butterflies (formerly the superfamily "Hedyloidea").
+                    Butterfly fossils date to the Paleocene, about 56 million years ago.
+                </p>
+            </div>
+            <div class="reviews_author">
+                <img class="reviews_photo" src="images/avatar2.jpg" alt="">
+                <div class="reviews_name">AndyLy</div>
+                <div class="reviews_company">Nature Blog</div>
+                <div class="reviews_rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+        </div> <!-- /.reviews_item -->
+
+    </div> <!-- /.container -->
+</div> <!-- /.reviews -->
+
+<!-- News -->
+<section id="blog" class="news">
+    <div class="container">
+
+        <div class="news_header">
+            <div class="news_title"> Read me</div>
+            <div class="news_text"> Sometimes I write something smart</div>
+        </div>
+
+        <div class="articles">
+            <div class="articles_col">
+                <div class="articles_item">
+                    <div class="articles_header">
+                        <a class="news_align">
+                            <time class="articles_date"> 25 <br> Jul</time>
+                            <img id="1img" class="articles_photo" src="images/articles/art1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="articles_content">
+                        <h4 class="articles_title"><a href="#"> Foxes </a></h4>
+                        <div class="articles_location"> Forest animals</div>
+                        <div class="articles_text"> Foxes are small to medium-sized, omnivorous mammals belonging to
+                            several genera of the family Canidae. They have a flattened skull, upright triangular ears,
+                            a pointed, slightly upturned snout, and a long bushy tail (or brush).
+                        </div>
+                    </div>
+                    <div class="btn_center">
+                        <a id="fox_btn" class="btn btn--sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="articles_col">
+                <div class="articles_item">
+                    <div class="articles_header">
+                        <time class="articles_date"> 20 <br> Jun</time>
+                        <a class="news_align">
+                            <img id="2img" class="articles_photo" src="images/articles/art2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="articles_content">
+                        <h4 class="articles_title"><a href="#"> Butterflies </a></h4>
+                        <div class="articles_location"><a href="#"> Insects </a></div>
+                        <div class="articles_text"> Butterfly, (superfamily Papilionoidea), any of numerous species of
+                            insects belonging to multiple families. Butterflies, along with the moths and the skippers,
+                            make up the insect order Lepidoptera. Butterflies are nearly worldwide in their
+                            distribution.
+                        </div>
+                    </div>
+                    <div class="btn_center">
+                        <a id="butterfly_btn" class="btn btn--sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <p id="demo"></p>
+
+            <div class="articles_col">
+                <div class="articles_item">
+                    <div class="articles_header">
+                        <time class="articles_date"> 15 <br> May</time>
+                        <a class="news_align">
+                            <img id="3img" class="articles_photo" src="images/articles/art3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="articles_content">
+                        <h4 class="articles_title"><a href="#"> Cats </a></h4>
+                        <div class="articles_location"> Domestic animals</div>
+                        <div class="articles_text"> The cat (Felis catus) is a domestic species of small carnivorous
+                            mammal. It is the only domesticated species in the family Felidae and is often
+                            referred to as the domestic cat to distinguish it from the wild members of the family. A
+                            cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and
+                            avoids human contact. Domestic cats are valued by humans for companionship and their
+                            ability to kill rodents. About 60 cat breeds are recognized by various cat registries.
+                        </div>
+                    </div>
+                    <div class="btn_center">
+                        <a id="cat_btn" class="btn btn--sm">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /.articles -->
+
+        <div class="news_footer">
+            <a class="news_link" href="#">See more posts</a>
+        </div>
+
+    </div> <!-- /.container -->
+</section> <!-- /.news -->
+
+<!-- Footer -->
+<footer id="contact" class="footer">
+    <div class="container">
+
+        <div class="footer_inner">
+            <div class="footer_credits">
+                <div class="footer_copyright">
+                    &copy; 2022 AndyLy - Project About Animals
+                </div>
+                <div class="footer_social">
+                    <a class="footer_icons" href="#" target="_blank">
+                        <i class="fa-brands fa-behance"></i>
+                        <i class="fa-brands fa-dribbble"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="footer_nav">
+                <a class="footer_nav-link" href="javascript: scroll('work');">Work</a>
+                <a class="footer_nav-link" href="javascript: scroll('about');">About Me</a>
+                <a class="footer_nav-link" href="javascript: scroll('blog');">Blog</a>
+                <a class="footer_nav-link" href="javascript: scroll('contact');">Contact</a>
+                <a id="hireme_btn4" class="footer_nav-link footer_nav-link--btn">Hire Me</a>
+            </nav>
+
+        </div>
+
+    </div> <!-- /.container -->
+</footer>
+
+<!-- Modals -->
+<div id="fox_modal" class="modal">
+    <div class="modal_dialog" data-slider="slick">
+
+        <button class="modal_close" type="button">
+            <img src="images/x.png" alt="close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work_preview">
+                <img class="modal-work_photo" src="images/articles/nr1.jpg" alt="">
+            </div>
+            <div class="modal-work_content">
+
+                <div class="modal-work_center">
+                    <div class="modal-work_header">
+                        <h3 class="modal-work_title"> Foxes </h3>
+                        <div class="modal-work_info"> Forest animals <span class="divider"> | </span> 2022</div>
+                    </div>
+
+                    <div class="modal-work_client">
+                        <div class="modal-work-title"> Client:</div>
+                        <div class="modal-work-company"> Eco Nature</div>
+                    </div>
+
+                    <div class="modal-work_text">
+                        <p>Foxes are small to medium-sized, omnivorous mammals belonging to
+                            several genera of the family Canidae. They have a flattened skull, upright triangular ears,
+                            a pointed, slightly upturned snout, and a long bushy tail (or brush).</p>
+                    </div>
+                </div>
+
+<!--                <div class="modal-work_footer">-->
+
+<!--                    <button class="modal-work_btn modal-work_btn&#45;&#45;prev slickPrev" type="button">-->
+<!--                        <i class="fa-solid fa-angle-left"></i>-->
+<!--                        Previous-->
+<!--                    </button>-->
+<!--                    <button class="modal-work_btn modal-work_btn&#45;&#45;next slickNext" type="button">-->
+<!--                        Next-->
+<!--                        <i class="fa-solid fa-angle-right"></i>-->
+<!--                    </button>-->
+
+<!--                </div>-->
+
+            </div> <!-- /.modal-work_content -->
+        </div> <!-- /.modal-work -->
+
+    </div> <!-- /.modal_dialog -->
+</div> <!-- /.modal -->
+
+<!--Butterfly modal-->
+<div id="butterfly_modal" class="modal">
+    <div class="modal_dialog" data-slider="slick">
+
+        <button class="modal_close" type="button">
+            <img src="images/x.png" alt="close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work_preview">
+                <img class="modal-work_photo" src="images/articles/nr2.jpg" alt="">
+            </div>
+            <div class="modal-work_content">
+
+                <div class="modal-work_center">
+                    <div class="modal-work_header">
+                        <h3 class="modal-work_title"> Butterflies </h3>
+                        <div class="modal-work_info"> Insects <span class="divider"> | </span> 2022</div>
+                    </div>
+
+                    <div class="modal-work_client">
+                        <div class="modal-work-title"> Client:</div>
+                        <div class="modal-work-company"> Eco Nature</div>
+                    </div>
+
+                    <div class="modal-work_text">
+                        <p>Butterfly, (superfamily Papilionoidea), any of numerous species of
+                            insects belonging to multiple families. Butterflies, along with the moths and the skippers,
+                            make up the insect order Lepidoptera. Butterflies are nearly worldwide in their
+                            distribution.</p>
+                    </div>
+                </div>
+
+<!--                <div class="modal-work_footer">-->
+
+<!--                    <button id="prev" class="modal-work_btn modal-work_btn&#45;&#45;prev slickPrev" type="button">-->
+<!--                        <i class="fa-solid fa-angle-left"></i>-->
+<!--                        Previous-->
+<!--                    </button>-->
+<!--                    <button id="next" class="modal-work_btn modal-work_btn&#45;&#45;next slickNext" type="button">-->
+<!--                        Next-->
+<!--                        <i class="fa-solid fa-angle-right"></i>-->
+<!--                    </button>-->
+
+<!--                </div>-->
+
+            </div> <!-- /.modal-work_content -->
+        </div> <!-- /.modal-work -->
+
+    </div> <!-- /.modal_dialog -->
+</div> <!-- /.modal -->
+
+<!--Cat modal-->
+<div id="cat_modal" class="modal">
+    <div class="modal_dialog" data-slider="slick">
+
+        <button class="modal_close" type="button">
+            <img src="images/x.png" alt="close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work_preview">
+                <img class="modal-work_photo" src="images/articles/nr3.jpg" alt="">
+            </div>
+            <div class="modal-work_content">
+
+                <div class="modal-work_center">
+                    <div class="modal-work_header">
+                        <h3 class="modal-work_title"> Cats </h3>
+                        <div class="modal-work_info"> Domestic animals <span class="divider"> | </span> 2022</div>
+                    </div>
+
+                    <div class="modal-work_client">
+                        <div class="modal-work-title"> Client :</div>
+                        <div class="modal-work-company"> Eco Nature</div>
+
+
+                    </div>
+                    <div class="modal-work_text">
+                        <p>The cat (Felis catus) is a domestic species of small carnivorous
+                            mammal. It is the only domesticated species in the family Felidae and is often
+                            referred to as the domestic cat to distinguish it from the wild members of the family. A
+                            cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and
+                            avoids human contact. Domestic cats are valued by humans for companionship and their
+                            ability to kill rodents. About 60 cat breeds are recognized by various cat registries.</p>
+                    </div>
+                </div>
+
+<!--                <div class="modal-work_footer">-->
+
+<!--                    <button class="modal-work_btn modal-work_btn&#45;&#45;prev slickPrev" type="button">-->
+<!--                        <i class="fa-solid fa-angle-left"></i>-->
+<!--                        Previous-->
+<!--                    </button>-->
+<!--                    <button class="modal-work_btn modal-work_btn&#45;&#45;next slickNext" type="button">-->
+<!--                        Next-->
+<!--                        <i class="fa-solid fa-angle-right"></i>-->
+<!--                    </button>-->
+
+<!--                </div>-->
+
+            </div> <!-- /.modal-work_content -->
+        </div> <!-- /.modal-work -->
+
+    </div> <!-- /.modal_dialog -->
+</div> <!-- /.modal -->
+
+
+<!-- Modal 2 -->
+<div id="resume_modal" class="modal">
+    <div class="modal_dialog modal_dialog--resume">
+
+        <button class="modal_close" type="button">
+            <img src="images/x.png" alt="close">
+        </button>
+
+        <div class="modal_content modal_content--resume">
+            <h3 class="modal_title text_center modal_title_resume"> Resume </h3>
+            <div class="text_center resume_btn">
+                <a class="btn btn--thin" href="#">Download pdf</a>
+                <a class="btn btn--thin print" href="#">Print</a>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline_col timeline_col--left">
+                    <h4 class="timeline_title">Activity</h4>
+
+                    <div class="timeline_item">
+                        <div class="timeline_date"> 2021 - <b>Present</b></div>
+                        <div class="timeline_title--second">Student</div>
+                        <div class="timeline_subtitle"> Technical University of Moldova</div>
+                        <div class="timeline_text"> Second year student, Faculty of Computers, Informatics and
+                            Microelectronics, Software Engineering (FAF).
+                        </div>
+                    </div>
+
+                    <div class="timeline_item">
+                        <div class="timeline_date"> 2018 - 2020</div>
+                        <div class="timeline_title--second">Student</div>
+                        <div class="timeline_subtitle"> Lyceum</div>
+                        <div class="timeline_text"> Obtained the Basic Lyceum Knowledge.</div>
+                    </div>
+
+                    <div class="timeline_item">
+                        <div class="timeline_date"> 2009 - 2018</div>
+                        <div class="timeline_title--second">Student</div>
+                        <div class="timeline_subtitle"> School</div>
+                        <div class="timeline_text"> I did primary school and gymnasium.</div>
+                    </div>
+
+                    <div class="timeline_item">
+                        <div class="timeline_date"> 2009 - 2016</div>
+                        <div class="timeline_title--second">Student</div>
+                        <div class="timeline_subtitle"> Art School</div>
+                        <div class="timeline_text"> Studied drawing, painting, sculpture, visualization of objects in
+                            space and correct representation on
+                            paper.
+                        </div>
+                    </div>
+
+                </div> <!-- /.timeline_col -->
+
+                <div class="timeline_col timeline_col--right">
+                    <h4 class="timeline_title">Projects</h4>
+
+                    <div class="timeline_item">
+                        <div class="timeline_date"> August 2022</div>
+                        <div class="timeline_title--second">Project About Animals</div>
+                        <div class="timeline_text">HTML, CSS, JS Project</div>
+                    </div>
+
+                    <div class="timeline_item">
+                        <div class="timeline_date"> July 2022</div>
+                        <div class="timeline_title--second">Lilo</div>
+                        <div class="timeline_text">HTML, CSS, JS Project</div>
+                    </div>
+
+                    <div class="timeline_item">
+                        <div class="timeline_date"> 2019 - 2020</div>
+                        <div class="timeline_title--second">Visual Novel</div>
+                        <div class="timeline_text"> This is an application programmed in Python with Renpy. It contains
+                            a lot of maps and information about flora, fauna, tourist places,
+                            natural deposits, relief, etc.
+                        </div>
+                    </div>
+
+                    <div class="timeline_item">
+                        <div class="timeline_title--second">Skills</div>
+
+                        <div class="skills">
+
+                            <div class="skills_left">
+                                <div class="timeline_text timeline_text--skills"> HTML</div>
+                                <div class="timeline_text timeline_text--skills"> CSS</div>
+                                <div class="timeline_text timeline_text--skills"> JS</div>
+                                <div class="timeline_text timeline_text--skills"> C++</div>
+                                <div class="timeline_text timeline_text--skills"> Python</div>
+                            </div>
+
+                            <div class="skills_right">
+                                <div class="skills_bar">
+                                    <div class="skills_progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skills_bar">
+                                    <div class="skills_progress" style="width: 90%"></div>
+                                </div>
+                                <div class="skills_bar">
+                                    <div class="skills_progress" style="width: 70%"></div>
+                                </div>
+                                <div class="skills_bar">
+                                    <div class="skills_progress" style="width: 60%"></div>
+                                </div>
+                                <div class="skills_bar">
+                                    <div class="skills_progress" style="width: 40%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="timeline_item">
+                        <div class="timeline_title--second">Awards</div>
+                        <div class="awards">
+                            <div class="timeline_date"> 2019</div>
+                            <div class="awards_info">
+                                <div class="timeline_title--second awards_title">Computer science conference</div>
+                                <div class="timeline_subtitle"> I place</div>
+                                <div class="timeline_text"> I made my visual Novel. This is an application programmed in
+                                    Python with Renpy. It contains
+                                    a lot of maps and information about flora, fauna, tourist places,
+                                    natural deposits, relief, etc.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> <!-- /.timeline -->
+        </div> <!-- /.modal_content -->
+
+    </div> <!-- /.modal_dialog -->
+</div> <!-- /.modal -->
+
+<!-- Modal 3 -->
+<div id="hireme_modal" class="modal modal--sm">
+    <div class="modal_dialog modal_dialog--sm">
+
+        <button class="modal_close" type="button">
+            <img src="images/x.png" alt="close">
+        </button>
+
+        <div class="modal-talk">
+            <div class="modal_content modal_content--talk">
+                <h3 class="modal-talk_title"> Let's Talk! </h3>
+                <div class="modal-talk_subtitle">Call me or send me a request</div>
+
+                <div class="phone">
+                    <i class="fa-solid fa-square-phone"></i>
+                    <span class="phone_ico"> (000) 000 000 </span>
+                </div>
+                <div class="mail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="mail_ico"> mymail@gmail.com </span>
+                </div>
+
+                <div class="modal-talk_title modal-talk_title--sm">Address e-mail</div>
+                <form class="subscribe" action="/">
+                    <input class="input" type="email" name="name" placeholder="Address e-mail">
+                </form>
+                <div class="modal-talk_title modal-talk_title--sm">Request</div>
+                <form class="subscribe" action="/">
+                    <input class="input input--text" type="text" placeholder="Type your request...">
+                </form>
+                <div class="text-right text-right--send">
+                    <a class="btn btn--sm btn--big" href="#">Send</a>
+                </div>
+            </div>
+
+            <div class="modal-talk_preview">
+                <img class="modal-talk_photo" src="images/background.jpg" alt="">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/dcbdca1857.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
